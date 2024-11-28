@@ -1,0 +1,45 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f4f4f9;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* 入力フォーム */
+#weatherForm {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#weatherForm input {
+    padding: 10px;
+    font-size: 16px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+#weatherForm button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#weatherForm button:hover {
+    background-color: #0056b3;
+}
+
+/* グラフ表示領域 */
+#chart {
+    width: 100%;
+    height: 500px;
+    margin-top: 30px;
+}

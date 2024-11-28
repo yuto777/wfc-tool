@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>温度のグラフ</title>
+    <!-- 外部CSSをリンク -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>温度のグラフ</h1>
+
+    <!-- 入力フォーム -->
+    <div id="weatherForm">
+        <input type="text" id="cityInput" placeholder="都市名を入力" />
+        <button onclick="fetchWeatherData()">天気を表示</button>
+    </div>
+
+    <!-- グラフ表示領域 -->
+    <div id="chart"></div>
+
+    <!-- 外部JavaScriptファイル -->
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
